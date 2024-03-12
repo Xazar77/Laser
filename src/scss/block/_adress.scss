@@ -1,0 +1,31 @@
+.adress{
+    padding: 15px 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(251, 249, 251);
+    &_wrap{
+        max-width: 1690px
+    }
+    &__menu{
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_item{
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            position: relative;
+            &::after{
+                content: '';
+                width: 12px;
+                height: 15px;
+                display: block;
+                position: absolute;
+                top: 0;
+                left: -20px;
+                background: url('../icons/location.svg') center center/cover no-repeat;
+            }
+        }
+    }
+}
