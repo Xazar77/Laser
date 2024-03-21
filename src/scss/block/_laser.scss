@@ -302,7 +302,7 @@
         }
         &__zone{
             width: 436px;
-            padding: 22px 103px;
+            padding: 53px 103px;
             margin-right: 20px;
             &_image{
                 width: 230px;
@@ -400,6 +400,7 @@
     .laser{
         &__zone{
             height: 323px;
+            padding: 22px 103px;
         }
         &__complex{
             width: 397px;
@@ -487,6 +488,7 @@
             border-radius: none;
             box-shadow: none;
             padding: 0;
+            background: none;
             &_items{
                 appearance: none;
                 width: 100%;
