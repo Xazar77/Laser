@@ -1,5 +1,5 @@
 .laser{
-    padding-bottom: 40px;
+    // padding-bottom: 40px;
     &__title{
         font-size: 30px;
         font-weight: 400;
@@ -239,9 +239,7 @@
 }
 
 @media (max-width:1870px){
-    .container {
-        width: 1690px;
-    }
+
     .laser{
         &__zone{
             width: 495px;
@@ -265,9 +263,7 @@
 }
 
 @media (max-width:1690px) {
-    .container {
-        max-width: 1600px;
-    }
+
     .laser{
         &__zone{
             max-width: 495px;
@@ -291,9 +287,7 @@
 }
 
 @media (max-width:1600px){
-    .container {
-        width: 1150px;
-    }
+
     .laser{
         &__title{
             font-size: 17px;
@@ -394,9 +388,7 @@
 
 }
 @media (max-width:1200px){
-    .container {
-        width: 853px;
-    }
+
     .laser{
         &__zone{
             height: 323px;
@@ -472,9 +464,7 @@
 }
 
 @media (max-width: 900px) {
-    .container{
-        width: 594px;
-    }
+
     .laser{
         padding: 32px 0;
         &__container{
@@ -651,9 +641,7 @@
     }
 }
 @media (max-width: 640px) {
-    .container{
-        width: 319px;
-    }
+
     .laser{
         &__title{
             display: flex;

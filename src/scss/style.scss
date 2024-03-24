@@ -7,7 +7,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;   
+    font-weight: 300;
 	font-optical-sizing: auto;
 	font-style: normal;
 }
@@ -15,6 +16,7 @@
 body{
     position: relative;
     background: rgb(251, 249, 251);
+    overflow-x: hidden;
 }
 
 
@@ -61,4 +63,39 @@ a{
 @import './block/form';
 @import './block/adress';
 @import './block/services';
-   
+@import './block/place';
+
+
+@media (max-width:1870px) {
+    .container {
+        max-width: 1690px;
+    }
+}
+@media (max-width:1690px) {
+    .container {
+        max-width: 1600px;
+    }
+}
+
+@media (max-width:1600px){
+    .container {
+        max-width: 1150px;
+    }
+}
+@media (max-width:1200px){
+    .container {
+        max-width: 853px;
+    }
+}
+
+@media (max-width: 900px){
+    .container{
+        max-width: 594px;
+    }
+}
+
+@media (max-width: 640px){
+    .container{
+        max-width: 319px;
+    }
+}
