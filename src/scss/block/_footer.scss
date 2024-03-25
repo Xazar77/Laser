@@ -1,5 +1,5 @@
 .footer{
-    margin-top: 40px;
+    // margin-top: 40px;
     border-top: 1px solid rgba(0, 0, 0, 0.15);
     &__header{
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -151,6 +151,13 @@
 @media (max-width:1600px){
    .footer{
     position: relative;
+        &__header,
+        &__location,
+        &__nav{
+            &_wrap{
+                width: 88%;
+            }
+        }
         &__social{
             &__header{
                 display: none;
@@ -161,7 +168,7 @@
 
             }
             &__menu{
-                width: 90%;
+                width: 88%;
                 margin: 0 auto;
             }
 
@@ -180,10 +187,10 @@
 }
 @media (max-width:1200px){
    .footer{
-    &__logo{
-        width: 198.75px;
-        height: 69.75px;
-    }
+        &__logo{
+            width: 198.75px;
+            height: 69.75px;
+        }
         &__btns{
             display: flex;
             align-items: center;
@@ -224,6 +231,7 @@
                 
             }
         }
+
    }
 }
 @media (max-width:900px){
@@ -260,6 +268,7 @@
 @media (max-width:640px){
 
     .footer{
+        // margin-top: 565px;
         &__header,
         &__location,
         &__nav{
@@ -327,9 +336,10 @@
 }
 @media (max-width:475px){
    .footer{
-        &__logo{
-            background: none;
-        }
+        // margin-top: 550px;
+        // &__logo{
+        //     background: none;
+        // }
         &__location{
             &__map{
                 width: 282px;
@@ -355,4 +365,15 @@
             }
         }
    }
+}
+@media (max-width:370px){
+    .footer{
+        &__logo{
+            display: none;
+        }
+        &__btns{
+            margin: 0 auto;
+        }
+    }
+
 }
